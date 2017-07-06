@@ -13,6 +13,7 @@
 		1257A3371F0A31EE00A8BC32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1257A3351F0A31EE00A8BC32 /* Main.storyboard */; };
 		1257A3391F0A31EE00A8BC32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1257A3381F0A31EE00A8BC32 /* Assets.xcassets */; };
 		1257A33C1F0A31EE00A8BC32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1257A33A1F0A31EE00A8BC32 /* LaunchScreen.storyboard */; };
+		1257A3451F0A322900A8BC32 /* GradientProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1257A3441F0A322900A8BC32 /* GradientProgressBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1257A3381F0A31EE00A8BC32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1257A33B1F0A31EE00A8BC32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1257A33D1F0A31EE00A8BC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1257A3431F0A322900A8BC32 /* GradientProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientProgressBar.h; sourceTree = "<group>"; };
+		1257A3441F0A322900A8BC32 /* GradientProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientProgressBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				1257A32F1F0A31EE00A8BC32 /* AppDelegate.h */,
 				1257A3301F0A31EE00A8BC32 /* AppDelegate.m */,
+				1257A3431F0A322900A8BC32 /* GradientProgressBar.h */,
+				1257A3441F0A322900A8BC32 /* GradientProgressBar.m */,
 				1257A3321F0A31EE00A8BC32 /* ViewController.h */,
 				1257A3331F0A31EE00A8BC32 /* ViewController.m */,
 				1257A3351F0A31EE00A8BC32 /* Main.storyboard */,
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1257A3451F0A322900A8BC32 /* GradientProgressBar.m in Sources */,
 				1257A3341F0A31EE00A8BC32 /* ViewController.m in Sources */,
 				1257A3311F0A31EE00A8BC32 /* AppDelegate.m in Sources */,
 				1257A32E1F0A31EE00A8BC32 /* main.m in Sources */,

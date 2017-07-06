@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "GradientProgressBar.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet GradientProgressBar *gradientBar;
 
 @end
 
@@ -25,5 +27,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)button:(id)sender {
+    if(_gradientBar.isAnimating==NO){
+        self.gradientBar.percent = 1;
+        [_gradientBar beginAnimate];
+        
+        //    [_gradientBar setPercent:1 animated:YES];
+    }
+}
 
 @end
